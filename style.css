@@ -1,0 +1,147 @@
+header{
+    position: fixed;
+        background-color: #a6acaf ;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding-bottom: 5px;
+        
+}
+.navigation{
+        margin-top: 10px;
+        
+    }
+    .navigation li{
+        
+        display: inline;
+        
+        
+    }
+    .navigation li a{
+        text-decoration: none;
+        padding: 90px;
+        color: white;
+       
+        text-align: left;
+        
+    }
+
+body{
+    
+    background-image: url(po.jpg);
+    
+}
+#introduction-main{
+    /* background-color: black; */
+    color: aliceblue;
+    justify-content: left; 
+    margin-top: 16%;
+
+}
+#introduction-main h1{
+   padding-left: 220px;
+   /* margin-bottom: 20px; */
+}
+.introduction{
+    display: flex;
+    justify-content: center;
+
+    /* margin-left: 100px;
+    margin-top: 5%; */
+}
+.introduction-div1{
+    /* margin: 5px 5px 5px 5px; */
+    border: color(#ecf0f1 );
+    margin-left: 5px;
+    margin-left: 5%;
+    border-radius: 2px;
+}
+.introduction-div1 img{
+    border-radius: 50%;
+    border: 3px solid #ecf0f1;
+    
+}
+.introduction-div2{
+    border: 3px solid #ecf0f1;
+    padding: 25px 10px; 
+    margin-right: 10%;
+    text-align: center;
+    border-radius: 10px;
+    bottom: 10px;
+}
+.introduction-div2 p{
+    font-size: 20px;
+    margin-right: 20%;
+    color: grey;
+    font-weight: bolder; 
+    top: 5px;
+    bottom: 5px;
+    justify-content: center;
+}
+   
+
+span{
+    color: aliceblue;
+    font-weight: bolder;
+}
+.Skills{
+    color: aliceblue;
+    margin: 10px 10px 10px 10px;
+}
+.skills{
+    color: aliceblue;
+   text-align: justify;
+   padding: 20px;
+   background-color: #a6acaf;
+   margin-left: 0px;
+   margin-right: 0px;
+   margin-top: 15%;
+   border-radius: 20%;
+
+}
+.skill h2{
+    text-align: center;
+}
+.skill p{
+    text-align: justify;
+    margin: 10px 10px 10px 10px;
+    font-size: medium;
+    font-weight: bolder;
+}
+#project{
+    text-align: center;
+    margin-top: 15%;
+}
+#project h1{
+    color: aliceblue;
+}
+.project-container{
+    display: flex;
+    justify-content: center; 
+    color: gray;
+    height: 80vh;
+    
+
+}
+.project-content{
+    border: 3px solid #ecf0f1;
+    width: 24%;
+    margin: auto 30px;
+    color: gray;
+    border-radius: 8px;
+
+}
+.project-content img{
+    border-radius: 8px;
+}
+.project-content p{
+    padding: 30px 15px 10px 7px;
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: justify;
+}
+footer{
+    text-align: center;
+    background-color: #a6acaf; 
+    margin-bottom: 0;
+}
